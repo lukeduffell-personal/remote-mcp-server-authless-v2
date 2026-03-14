@@ -2,7 +2,7 @@ import { McpAgent } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 
-const CALDAV_BASE = "https://caldav.icloud.com";
+const CALDAV_BASE = "webcal://p110-caldav.icloud.com/published/2/MTAxNzQ2ODM5MzEwMTc0Np9ZSvMP02yo9G1fqwNL2t9DMetSJmbeXxfclnFut9BmSAzte3etGj-NZTuW5GDFZ2NzlcsAyDSWM08zCGBliF0";
 
 interface Env {
   MCP_OBJECT: DurableObjectNamespace;
